@@ -1,0 +1,37 @@
+img {
+  width: 100%;
+}
+
+
+
+.background{
+
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+
+
+
+}
+
+
+.section {
+
+  border-top: 1vh solid #eee;
+  grid-column-start: 0;
+  grid-column-end: span 4;
+  background-color:#d8d8d8;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  margin-top: -60vh;
+
+}
+
+.covid{
+
+  padding-top: 17%;
+
+
+}
